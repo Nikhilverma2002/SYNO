@@ -8,7 +8,6 @@ import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
@@ -90,6 +89,7 @@ public class post extends Fragment {
     View view;
     FirebaseAuth auth;
     FirebaseUser user;
+    private ImageView imageNote,imageRemoveImage;
     private ImageView imageNote,imageRemoveImage;
     EditText body,title,category;
     private Context contextNullSafe;
